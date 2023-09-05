@@ -3,7 +3,7 @@
 My sixth app made with Dart/Flutter! 🚀
 
 In it I learned about:
-* 
+* How to use the Image_Picker lib
 
 Some screenshots:
 
