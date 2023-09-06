@@ -1,4 +1,7 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
+import 'package:flutter_learning_06/components/user_image_picker.dart';
 import 'package:flutter_learning_06/models/auth_form_data.dart';
 
 class AuthForm extends StatefulWidget {
@@ -16,10 +19,23 @@ class _AuthFormState extends State<AuthForm> {
   final _formData = AuthFormData();
   final _formKey = GlobalKey<FormState>();
 
+  void _handleImagePick(File image) {
+    _formData.image = image;
+  }
+
+  void _showError(String msg) {
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+      content: Text(msg),
+      backgroundColor: Theme.of(context).hintColor,
+    ));
+  }
+
   void _submit() {
     final isValid = _formKey.currentState?.validate() ?? false;
     if (!isValid) {
       return;
+    } else if (_formData.image == null && _formData.isSignup) {
+      _showError("Por favor adicione uma imagem.");
     } else {
       widget.onSubmit(_formData);
     }
@@ -35,6 +51,10 @@ class _AuthFormState extends State<AuthForm> {
             key: _formKey,
             child: Column(
               children: [
+                if (_formData.isSignup)
+                  UserImagePicker(
+                    onImagePick: _handleImagePick,
+                  ),
                 if (_formData.isSignup)
                   TextFormField(
                     key: const ValueKey("name"),
