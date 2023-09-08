@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "191356853606",
+    "project_id": "chat-dos-marombas",
+    "storage_bucket": "chat-dos-marombas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191356853606:android:2cb47f5386a387f8ab3ca7",
+        "android_client_info": {
+          "package_name": "com.soumessias.chatdosmarombas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3Cjsl1_YoMeP1AqmZpYjJTL52ZXkudPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
