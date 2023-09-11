@@ -9,6 +9,7 @@ In it I learned about:
 * How to create a mockup service class to replace in the future by Firebase/Supabase
 * How to use MultiStreams to simulate a database
 * How to use FirebaseAuth + Firebase Storage
+* How to use the WithConverter from Firebase
 
 Some screenshots:
 
