@@ -16,4 +16,4 @@ Some screenshots:
 
 Login Screen              | Signup Screen            | Chat Screen               | Notification Page      
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img src="https://github.com/soumessias/flutter_learning_06/blob/master/screenshots/01.png" width="200">  |  <img src="https://github.com/soumessias/flutter_learning_06/blob/master/screenshots/02.png" width="200"> | <img src="https://github.com/soumessias/flutter_learning_06/blob/master/screenshots/03.png" width="200"> | <img src="https://github.com/soumessias/flutter_learning_06/blob/master/screenshots/04.png" width="200"> -->
+<img src="https://github.com/soumessias/flutter_learning_06/blob/main/screenshots/01.png" width="200">  |  <img src="https://github.com/soumessias/flutter_learning_06/blob/main/screenshots/02.png" width="200"> | <img src="https://github.com/soumessias/flutter_learning_06/blob/main/screenshots/03.png" width="200"> | <img src="https://github.com/soumessias/flutter_learning_06/blob/main/screenshots/04.png" width="200"> -->
