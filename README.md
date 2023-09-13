@@ -10,9 +10,10 @@ In it I learned about:
 * How to use MultiStreams to simulate a database
 * How to use FirebaseAuth + Firebase Storage
 * How to use the WithConverter from Firebase
+* How to use Firebase Messaging to Send Push Notifications on Foreground, Background or Terminated
 
 Some screenshots:
 
-!-- Placeholder            | DrawerPlaceholder         | Placeholder               | Placeholder               | Placeholder
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img src="" width="200">  |  <img src="" width="200"> | <img src="" width="200"> | <img src="" width="200"> | <img src="" width="200"> -->
+Login Screen              | Signup Screen            | Chat Screen               | Notification Page      
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://github.com/soumessias/flutter_learning_06/blob/master/screenshots/01.png" width="200">  |  <img src="https://github.com/soumessias/flutter_learning_06/blob/master/screenshots/02.png" width="200"> | <img src="https://github.com/soumessias/flutter_learning_06/blob/master/screenshots/03.png" width="200"> | <img src="https://github.com/soumessias/flutter_learning_06/blob/master/screenshots/04.png" width="200"> -->

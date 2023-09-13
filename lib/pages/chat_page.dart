@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_learning_06/components/messages.dart';
 import 'package:flutter_learning_06/components/new_message.dart';
 import 'package:flutter_learning_06/core/services/auth/auth_service.dart';
-import 'package:flutter_learning_06/core/services/notification/push_notification_service.dart';
+import 'package:flutter_learning_06/core/services/notification/chat_notification_service.dart';
 import 'package:flutter_learning_06/pages/notification_page.dart';
 import 'package:provider/provider.dart';
 

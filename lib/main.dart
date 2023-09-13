@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_learning_06/core/services/notification/push_notification_service.dart';
+import 'package:flutter_learning_06/core/services/notification/chat_notification_service.dart';
 import 'package:flutter_learning_06/pages/auth_or_app_page.dart';
 import 'package:provider/provider.dart';
 
